@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Angular Prototype Lab</title>
+  <base href="/">
+
+  <!-- Bootstrap CDN -->
+  <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+  <!-- Bower Components -->
+  <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular-route.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular-resource.js"></script>
+
+  <!-- App JS -->
+  <script src="app.js"></script>
+
+    <!-- CSS -->
+  <link href="css/main.css" rel="stylesheet" />
+
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div ng-view >
+        <div ng-controller="ResourceController">      
+          <h1 style="text-align: center"> OOTD Gallery </h1>
+
+            <div class="main container-fluid" >
+              <table>
+                <tr>
+
+                  <td><img src="{{image}}" width="300"></td>
+                   <td><img src="{{image}}" width="300"></td>
+                   <td><img src="{{image}}" width="300"></td>
+                </tr>
+              </table>
+            </div>
+
+                  
+           
+
+        </div>
+      </div>
+    </div>
+  </div>     
+</body>
+</html>

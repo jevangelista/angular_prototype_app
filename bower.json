@@ -1,0 +1,16 @@
+{
+  "name": "angular_prototype_app",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jevangelista/WDI_Project1",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
