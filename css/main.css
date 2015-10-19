@@ -5,30 +5,26 @@ html, body {
  width:100%;
 }
 
-.header {
- padding: 15px;
-}
-
-.header img {
-   display: inline-block;
-}
-
-.header h1 {
-   display: inline-block;
+.label {
+   color: #ffffff;
+   font-size: 20px;
 }
 
 .main {
- background-color: #f2f2f2 ;
+ background-color: #223F80 ;
  padding: 40px 0;
 }
 
 .main h1 {
- color: #F65A5B ;
- font-size: 64px;
+ color: #EC4140 ;
+ font-size: 50px;
+ font-weight: bold;
  margin: 0 0 80px 0;
  padding: 20px 0;
    line-height: 60px;
-   width: 50%;
+   width: 100%;
+ text-align: center;
+
 }
 
 .main h2 {
@@ -67,9 +63,10 @@ html, body {
    font-weight: 200;
 }
 
-.price {
- background-color: #39D1B4 ;
+.icon {
+ background-color: #65BF95 ;
  color: #fff;
+ padding: 10px;
  font-size: 18px;
    border-radius: 50%;
    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
@@ -91,9 +88,8 @@ html, body {
  margin: 30px 0 -30px 20px;
 }
 
-.likes,
-.dislikes {
-   background: #F65A5B ;
+.likes {
+   background: #EC4140 ;
  color: #fff;
  cursor: pointer;
  display: inline-block;
@@ -109,22 +105,12 @@ html, body {
    transition: background 500ms;
 }
 
-.likes:hover,
-.dislikes:hover {
+.likes:hover {
  color: #F65A5B ;
    background: rgba(246, 90, 91, 0.25);
    transition: background 500ms;
 }
 
-.footer {
- text-align: center;
- margin: 80px 0 110px;
+img {
+   width: 300px;
 }
-
-.footer h2 {
- font-size: 24px;
- margin-bottom: 25px;
-}
-
-.footer img {
-   margin: 0 10px;
